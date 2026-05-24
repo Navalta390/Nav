@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Column Layout Methods</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 24px;
+      background-color: gold;
+    }
+
+    .site-header h1 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #000;
+    }
+
+    .menu {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+
+    .menu a {
+      text-decoration: underline;
+      color: #003399;
+      font-weight: 700;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <h1>Page Layout Methods</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="./html-table.html">HTML Table</a></li>
+        <li><a href="./inline-block.html">Inline-Block</a></li>
+        <li><a href="./absolute-position.html">Absolute Positioning</a></li>
+        <li><a href="./float.html">Float</a></li>
+        <li><a href="./flex.html">Flexbox</a></li>
+      </ul>
+    </nav>
+  </header>
+</body>
+
+</html>
